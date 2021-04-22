@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* ---------------------------------Index Color Generator-------------------------------------- */
+.tabs {
+  display: flex;
+  list-style: none;
+  justify-content: left;
+  background-color: rgb(191, 185, 197);
+  /* padding: 4px; */
+  margin: 2px 4px;
+  border-radius: 10px;
+  font-weight: 300;
+  text-decoration-line: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.tabs li {
+  border-right: 3px rgb(85, 78, 78) solid;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+.tabs li a {
+  text-decoration: none;
+  padding: 5px 5px;
+
+  color: black;
+  border-radius: 10px;
+}
+.tabs li a:hover {
+  color: white;
+  background-color: #4e4a48;
+}
+
+.info-container {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 20px 20px;
+}
+
+#btn {
+  padding: 10px 10px;
+  border-radius: 15px 15px;
+  width: 100px;
+  border: 2px solid grey;
+  background-color: inherit;
+}
+#btn:hover {
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+}
+
+/* --------------|-------------------Index Color Generator-------------|------------------------- */
+
+/* ----------------------------------Palette Wheel Decorations--------------------------------------- */
+.wheel-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 20px;
+  background-color: rgb(158, 154, 154);
+  border-radius: 30px;
+}
+.wheel-wrapper {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+.canvasid {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.canvasf {
+  position: absolute;
+  top: 80px;
+  left: 75px;
+}
+.satid {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 2px black solid;
+  top: 80px;
+  left: 80px;
+  overflow: hidden;
+}
+
+.indicator {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  border: 2px black solid;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* margin: -35px -35px; */
+}
+.eyedropper {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  top: 0;
+  left: 0;
+  border: 3px white solid;
+  background-color: transparent;
+  /* overflow: hidden; */
+  z-index: 4;
+}
+.palete-wrap {
+  display: flex;
+  margin: 20px 10px;
+  flex-wrap: wrap;
+}
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 450px;
+  height: 200px;
+  overflow: hidden;
+}
+.swatch {
+  width: 150px;
+  height: 50px;
+  border: 2px black solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: "Franklin Gothic Light", "Arial Narrow", Arial, sans-serif;
+  margin: 0px 30px;
+  overflow: hidden;
+  display: flex;
+}
+.swatch span {
+  align-self: flex-end;
+  padding: 0px 10px;
+}
+.btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: greenyellow;
+  margin: 10px 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

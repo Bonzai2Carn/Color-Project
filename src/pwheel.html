@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Color Tab Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="/fontawesome/css/all.css"> -->
+    <script src="wheel.js" defer></script>
+</head>
+<body>
+    <div class="tab-container ">
+        <ul class="tabs">
+            <li><a href="index.html">Color Generator</a></li>
+            <li><a href="pwheel.html">Palette Wheel</a></li>
+            <li><a href="wsbeta.html">Drag n Drop Preview</a></li>
+        </ul>
+    </div>
+    <div class="wheel-container">
+        <div class="wheels">
+            <div class="wheel-wrapper">
+                <canvas id="hue" width="300" height="300" class="canvasid hue-id"> </canvas>
+                <div class="canvasid">
+                    <button class="indicator"></button>
+                </div>    
+                <div class="satid-wrapper">
+                <div class = "satid">
+                    <button class="eyedropper"></button>
+                </div>
+                    <canvas id="satid-canvas" width="150" height="150" class="canvasf"></canvas>
+                </div>
+            </div>
+            
+        </div>
+        <div class="palete-wrap">
+            <button class = "btn">Add Color</button>
+            <div class="palette">
+                <div class="swatch"><span>Navbar</span></div>
+                <div class="swatch"><span>Hover Effects</span></div>
+                <div class="swatch"><span>Text Color</span></div>
+                <div class="swatch"><span>Background-color</span></div>
+                <div class="swatch"><span>Contact</span></div>
+                <div class="swatch"><span>Footer</span></div>
+            </div>
+            <button class = "btn generate-btn">Generate Site</button>
+    </div>
+    </div>
+</body> 
+</html>
